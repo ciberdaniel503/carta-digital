@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis XV Años | Allison Gisel Quiñones Salas</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========================= -->
+    <!-- LOADER -->
+    <!-- ========================= -->
+    <div id="loader">
+        <h2>Allison</h2>
+        <p>Cargando invitación...</p>
+    </div>
+
+    <!-- ========================= -->
+    <!-- PORTADA -->
+    <!-- ========================= -->
+    <div id="cover">
+        <img src="img/corona.png" class="corona" alt="Corona">
+        <img src="img/rapunzel.png" class="rapunzel" alt="Rapunzel">
+        <h3>Mis XV Años</h3>
+        <h1>Allison</h1>
+        <button id="openInvitation">Abrir Invitación</button>
+    </div>
+
+    <!-- ========================= -->
+    <!-- INVITACIÓN -->
+    <!-- ========================= -->
+    <div id="invitation" class="hidden">
+
+        <!-- Sección Narrativa -->
+        <section class="seccion">
+            <p class="subtitulo">Mis 15 Años</p>
+            <div class="texto-narrativo" id="texto-narrativo">
+                <span id="texto-escrito"></span><span class="cursor"></span>
+            </div>
+        </section>
+
+        <!-- Sección Padres -->
+        <section class="seccion padres">
+            <p class="texto-padres">Con la bendición de Dios y el amor de mis padres</p>
+            <img src="img/padres.png" class="foto-padres">
+            <div class="padres-contenedor">
+                <h3>Jonatan Moisés Quiñones Salas</h3>
+                <p class="y">&</p>
+                <h3>Doris Yamileth Salas de Quiñones</h3>
+            </div>
+        </section>
+
+        <!-- Sección Nombre en Marco -->
+        <section class="seccion">
+            <div class="marco-dorado">
+                <h1 class="nombre-principal">Allison Gisel<br>Quiñones Salas</h1>
+            </div>
+
+            <img src="img/allison.jpg" class="foto-allison">
+
+            <p style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 18px; margin-top: 20px;">
+                "He aprendido que estar con quienes quiero es suficiente para ser feliz.<br>
+                Ten por seguro que el tiempo y estas letras se borrarán, pero el recuerdo de tu presencia esta noche nunca lo olvidaré."
+            </p>
+        </section>
+
+        <!-- Sección Fecha con Calendario -->
+        <section class="seccion">
+            <h2 class="titulo-seccion">Fecha</h2>
+            <div class="calendario">
+                <h3>Diciembre</h3>
+                <div class="calendario-grid">
+                    <div class="dia-semana">D</div>
+                    <div class="dia-semana">L</div>
+                    <div class="dia-semana">M</div>
+                    <div class="dia-semana">M</div>
+                    <div class="dia-semana">J</div>
+                    <div class="dia-semana">V</div>
+                    <div class="dia-semana">S</div>
+
+                    <div class="dia"></div>
+                    <div class="dia"></div>
+                    <div class="dia">1</div>
+                    <div class="dia">2</div>
+                    <div class="dia">3</div>
+                    <div class="dia">4</div>
+                    <div class="dia">5</div>
+                    <div class="dia">6</div>
+                    <div class="dia">7</div>
+                    <div class="dia">8</div>
+                    <div class="dia">9</div>
+                    <div class="dia">10</div>
+                    <div class="dia">11</div>
+                    <div class="dia">12</div>
+                    <div class="dia">13</div>
+                    <div class="dia">14</div>
+                    <div class="dia">15</div>
+                    <div class="dia">16</div>
+                    <div class="dia">17</div>
+                    <div class="dia">18</div>
+                    <div class="dia destacado">19</div>
+                    <div class="dia">20</div>
+                    <div class="dia">21</div>
+                    <div class="dia">22</div>
+                    <div class="dia">23</div>
+                    <div class="dia">24</div>
+                    <div class="dia">25</div>
+                    <div class="dia">26</div>
+                    <div class="dia">27</div>
+                    <div class="dia">28</div>
+                    <div class="dia">29</div>
+                    <div class="dia">30</div>
+                    <div class="dia">31</div>
+                </div>
+            </div>
+            <p style="font-size: 22px; color: var(--vino); font-weight: bold; margin-top: 20px;">Sábado 19 de Diciembre, 2026</p>
+            <p style="font-size: 28px; color: var(--dorado); font-weight: bold; margin-top: 10px;">6:00 PM</p>
+        </section>
+
+        <!-- Sección Lugar -->
+        <section class="seccion">
+            <div class="card">
+                <h2>Recepción</h2>
+                <h3>Salón de Recepción Quinta Umanzor</h3>
+                <p style="margin-top: 15px;">Te esperamos para celebrar juntos este día tan especial.</p>
+                <a href="https://www.google.com/maps/place/Quinta+Umanzor/@13.4576061,-88.1692083,17z/data=!3m1!4b1!4m6!3m5!1s0x8f7b2b007483f4ff:0x1bedb56bbffcfe9c!8m2!3d13.4576061!4d-88.1692083!16s%2Fg%2F11y2bgw0gx?entry=ttu"
+                   id="mapButton"
+                   target="_blank">
+                    Ver Ubicación
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección Música -->
+        <section class="seccion">
+            <div class="card">
+                <h2>🎵 No Crezcas Más</h2>
+                <h3>Tercer Cielo</h3>
+                <p style="margin-top: 15px; font-style: italic;">La canción que representa este momento</p>
+                <button id="musicButton">▶ Reproducir</button>
+            </div>
+        </section>
+
+        <!-- Sección Contador -->
+        <section class="seccion">
+            <h2 class="titulo-seccion">Cuenta Regresiva</h2>
+            <div class="contador">
+                <div>
+                    <span id="days">00</span>
+                    <small>Días</small>
+                </div>
+                <div>
+                    <span id="hours">00</span>
+                    <small>Horas</small>
+                </div>
+                <div>
+                    <span id="minutes">00</span>
+                    <small>Minutos</small>
+                </div>
+                <div>
+                    <span id="seconds">00</span>
+                    <small>Segundos</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Código de Vestimenta -->
+        <section class="seccion">
+            <div class="card">
+                <h2>👗 Código de Vestimenta</h2>
+                <div class="codigo-vestimenta">
+                    <div class="codigo-item">
+                        <div class="icono">👔</div>
+                        <p>Ellos<br>Elegantes</p>
+                    </div>
+                    <div class="codigo-item">
+                        <div class="icono">👗</div>
+                        <p>Ellas<br>Lindas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Regalo -->
+        <section class="seccion">
+            <div class="card">
+                <h2>Regalo</h2>
+                <p style="font-size: 18px; margin-top: 15px;">
+                    Tu presencia es mi mejor regalo,<br>
+                    pero si deseas tener un detalle conmigo:<br><br>
+                    <strong style="color: var(--vino); font-size: 22px;">¡Lluvia de Sobres!</strong>
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección Foto Familiar -->
+        <section class="seccion">
+            <h2 class="titulo-seccion">Un recuerdo para siempre</h2>
+            <img src="img/familia.jpg" class="foto-familia">
+        </section>
+
+        <!-- Sección Final -->
+        <section class="final">
+            <h2>¡Confirma tu Asistencia!</h2>
+            <p>
+                Tu presencia será el mejor regalo<br>
+                para hacer de este día un recuerdo inolvidable.<br><br>
+                Te esperamos con mucho cariño
+            </p>
+            <h1 style="font-family: 'Great Vibes', cursive; color: var(--vino); font-size: 70px; margin-top: 30px;">Allison</h1>
+        </section>
+
+    </div>
+
+    <!-- AUDIO -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="audio/musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/app.js"></script>
+</body>
+</html>
