@@ -55,7 +55,7 @@ function abrirInvitacion() {
 // ==============================
 // EFECTO DE ESCRITURA
 // ==============================
-const textoCompleto = "Hace quince años nació una hermosa niña, enviada por Dios para ser criada y formada como el más grande tesoro. Hay momentos en la vida que imaginamos, soñamos y esperamos. Uno de esos momentos ha llegado.";
+const textoCompleto = "Con la bendición de Dios y el amor de nuestra familia, hoy celebramos quince años de vida, sueños y felicidad. Este día marca el inicio de una nueva etapa, y nos honra contar con tu presencia para compartirlo.";
 const textoEscrito = document.getElementById("texto-escrito");
 let indiceTexto = 0;
 
