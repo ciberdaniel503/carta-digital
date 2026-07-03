@@ -504,3 +504,43 @@ body {
     .rapunzel { width: 140px; }
     .marco-dorado { padding: 20px 30px; }
 }
+
+/* ===== CORRECCIÓN DE ESPACIOS EXCESIVOS ===== */
+
+/* Reducir padding de secciones principales */
+.seccion {
+    padding: 40px 25px !important;
+}
+
+/* Reducir espacio del texto narrativo */
+.texto-narrativo {
+    margin: 20px auto !important;
+    min-height: auto !important;
+    line-height: 1.8 !important;
+}
+
+/* Reducir espacio de la sección de padres */
+.padres {
+    margin: 40px auto !important;
+}
+
+/* Reducir espacio de la sección final */
+.final {
+    padding: 50px 20px !important;
+}
+
+/* Reducir márgenes de títulos */
+.titulo-seccion {
+    margin-bottom: 20px !important;
+}
+
+/* Reducir espacio entre párrafos */
+.final p {
+    margin: 15px auto !important;
+}
+
+/* Reducir espacio de tarjetas */
+.card {
+    margin: 25px auto !important;
+    padding: 30px !important;
+}
