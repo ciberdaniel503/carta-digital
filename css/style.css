@@ -1,5 +1,5 @@
 /*=============================
-VARIABLES Y RESET
+    VARIABLES Y RESET
 =============================*/
 :root {
     --vino: #8B0D24;
@@ -77,24 +77,20 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
-    padding: 40px 20px;
-    background: radial-gradient(circle at top, #fff8e6, #fcfaf7);
+    padding: 1vh 20px 200px;
+    background-color: #fcfaf7;
+    background-image: url('../img/marco-portada.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .corona {
-    width: 110px;
-    margin-bottom: 20px;
+    width: 90px;
+    margin-bottom: 25px;
     animation: flotar 4s ease-in-out infinite;
     z-index: 2;
-}
-
-.rapunzel {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 190px;
-    opacity: 0.95;
-    z-index: 1;
+    padding: 20;
 }
 
 #cover h3 {
@@ -104,6 +100,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     z-index: 2;
+    padding: 20;
 }
 
 #cover h1 {
@@ -148,7 +145,7 @@ body {
     text-align: center;
     position: relative;
     max-width: 800px;
-    margin: 0 auto;
+    margin:  auto;
 }
 
 .titulo-seccion {
@@ -202,7 +199,7 @@ body {
 
 .padres {
     text-align: center;
-    margin: 70px auto;
+    margin: -90px auto 70px;
 }
 
 .texto-padres {
@@ -226,6 +223,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     text-align: center;
+   
 }
 
 .y {
@@ -501,46 +499,5 @@ body {
     .titulo-seccion { font-size: 40px; }
     .contador { grid-template-columns: repeat(2, 1fr); gap: 15px; }
     .contador span { font-size: 32px; }
-    .rapunzel { width: 140px; }
     .marco-dorado { padding: 20px 30px; }
-}
-
-/* ===== CORRECCIÓN DE ESPACIOS EXCESIVOS ===== */
-
-/* Reducir padding de secciones principales */
-.seccion {
-    padding: 40px 25px !important;
-}
-
-/* Reducir espacio del texto narrativo */
-.texto-narrativo {
-    margin: 20px auto !important;
-    min-height: auto !important;
-    line-height: 1.8 !important;
-}
-
-/* Reducir espacio de la sección de padres */
-.padres {
-    margin: 40px auto !important;
-}
-
-/* Reducir espacio de la sección final */
-.final {
-    padding: 50px 20px !important;
-}
-
-/* Reducir márgenes de títulos */
-.titulo-seccion {
-    margin-bottom: 20px !important;
-}
-
-/* Reducir espacio entre párrafos */
-.final p {
-    margin: 15px auto !important;
-}
-
-/* Reducir espacio de tarjetas */
-.card {
-    margin: 25px auto !important;
-    padding: 30px !important;
 }
