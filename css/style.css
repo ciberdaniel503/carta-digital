@@ -729,3 +729,92 @@ NUEVO DISEÑO PREMIUM
         transform:translateY(0);
     }
 }
+
+/*=========================================
+CORRECCIÓN RESPONSIVE FINAL
+(va al final a propósito: en CSS, cuando dos
+reglas tienen la misma especificidad, gana la
+que está más abajo en el archivo. Esto asegura
+que en móvil NO se usen los tamaños/paddings
+grandes de "NUEVO DISEÑO PREMIUM").
+=========================================*/
+@media (max-width: 768px) {
+
+    .seccion { padding: 60px 18px; }
+
+    .card {
+        padding: 30px 20px;
+    }
+
+    .marco-dorado {
+        border-width: 22px;
+        border-image-width: 22px;
+        padding: 24px 18px;
+    }
+
+    .card .marco-dorado {
+        padding: 18px 14px;
+    }
+
+    .padres {
+        border-width: 22px;
+        border-image-width: 22px;
+        padding: 22px 16px;
+    }
+
+    .nombre-principal { font-size: 42px; }
+    .marco-dorado + p { font-size: 16px !important; }
+
+    .card h2 { font-size: 22px; }
+    .card h3 { font-size: 17px; }
+    .card p  { font-size: 15px; }
+
+    .padres-contenedor h3 { font-size: 19px; }
+    .y { font-size: 26px; }
+    .texto-padres { font-size: 15px; }
+
+    .texto-narrativo {
+        padding: 22px 18px;
+        font-size: 16px;
+    }
+
+    .final h2 { font-size: 42px; }
+    .final p  { font-size: 16px; }
+}
+
+@media (max-width: 400px) {
+
+    .seccion { padding: 45px 12px; }
+
+    .card {
+        padding: 22px 14px;
+    }
+
+    .marco-dorado {
+        border-width: 14px;
+        border-image-width: 14px;
+        padding: 16px 12px;
+    }
+
+    .card .marco-dorado {
+        padding: 12px 10px;
+    }
+
+    .padres {
+        border-width: 14px;
+        border-image-width: 14px;
+        padding: 16px 10px;
+    }
+
+    .nombre-principal { font-size: 32px; }
+    .marco-dorado + p { font-size: 14px !important; }
+
+    .card h2 { font-size: 19px; }
+    .card h3 { font-size: 15px; }
+    .card p  { font-size: 14px; }
+
+    .padres-contenedor h3 { font-size: 16px; }
+    .y { font-size: 22px; }
+
+    .final h2 { font-size: 34px; }
+}
