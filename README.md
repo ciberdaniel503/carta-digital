@@ -20,6 +20,12 @@ Crear una experiencia digital sencilla que facilite la consulta de una carta des
 - Acceso desde un navegador.
 - Posibilidad de consultar el contenido desde diferentes dispositivos, según el diseño implementado.
 
+## 🌐 Demo en línea
+
+Puedes probar el proyecto publicado con GitHub Pages:
+
+👉 **[Abrir Carta Digital](https://ciberdaniel503.github.io/carta-digital/)**
+
 ## 🚀 Cómo ejecutar el proyecto
 
 1. Clona este repositorio:
